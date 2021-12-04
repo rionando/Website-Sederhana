@@ -1,0 +1,236 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "monaco", sans-serif;
+    color: #ffffff;
+    background-color: grey;
+}
+header{
+    background-color: #FF0000;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+header h1{
+    padding: 18px 2px;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+nav ul li {
+    justify-content: center;
+    text-align: center;
+    padding: 9px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+nav ul li:hover {
+
+    background-color: rgb(193, 207, 207);
+}
+
+
+
+
+.box {
+    display: flex;
+}
+
+.articleGroup {
+    max-width: 956px;
+    margin: 0;
+}
+
+.articleGroup p {
+    padding: 38px 0;
+    text-align: center;
+    font-size: 38px;
+
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 61%;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.boximages {
+    flex: 49%;
+    padding: 9px;
+}
+
+.maximages {
+    max-width: 50%;
+    height: auto;
+}
+
+.boxtext {
+    flex: 49%;
+    padding: px;
+    color: rgb(15, 13, 13);
+}
+
+.boxtext h1 {
+    font-size: 39px;
+}
+
+.boxtext p {
+    font-size: 14px;
+    padding: 19px;
+    color: #1a1c20;
+}
+
+.card {
+    box-shadow: 0 5px 9px 0 rgba(29, 26, 26, 0.2);
+    border-radius: 4px;
+    padding: 19px;
+    margin-top: 19px;
+}
+
+.content img:hover {
+    transform: scale(2.2);
+}
+
+/* area aside*/
+aside {
+    flex: 29%;
+    justify-content: center;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.side {
+    flex: 49%;
+}
+
+.profile {
+    flex: 49%;
+    text-align: center;
+}
+
+.profileimage {
+    max-width: 70%;
+    height: auto;
+}
+
+.profile h3 {
+    font-size: 19px;
+    padding: 3px;
+}
+
+.btn {
+
+    background-color: #ddb3c1;
+    font-size: 18px;
+    border: 3px solid #343641;
+}
+
+.btn:hover {
+    background-color: rgb(48, 133, 133);
+}
+
+.findme {
+    margin: 9px;
+    border: 1px solid #1f2027;
+    color: #dddddd;
+}
+
+.findme a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #dbdbdb;
+}
+
+.findme:hover {
+    background-color: rgb(172, 228, 228);
+}
+
+
+
+.cpright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cpright a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footbar a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 30px;
+    color: #e2e2e2;
+}
+
+.footbar a:hover {
+
+    color: rgb(209, 255, 255);
+}
+
+#writer {
+    margin-top: 9px;
+    display: none;
+    font-size: 17px;
+    padding: 3px;
+    border: 1px solid #000000;
+}
+
+
+
